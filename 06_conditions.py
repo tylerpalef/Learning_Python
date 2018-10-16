@@ -37,7 +37,7 @@
 # print((not False) == (False)) # Prints out False
 
 # change this code
-number = 10
+number = 16
 second_number = 10
 first_array = []
 second_array = [1,2,3]
