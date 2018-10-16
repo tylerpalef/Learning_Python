@@ -38,9 +38,9 @@
 
 # change this code
 number = 16
-second_number = 10
-first_array = [2, 1, 1]
-second_array = [2,3]
+second_number = 0 # This has to be 0 for the boolean to print
+first_array = [1,0,0]
+second_array = [1,3]
 
 if number > 15:
     print("1")
