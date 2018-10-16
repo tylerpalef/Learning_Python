@@ -25,3 +25,10 @@
 #     print("x equals two!")
 # else:
 #     print("x does not equal to two.")
+
+# Is operator
+
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
