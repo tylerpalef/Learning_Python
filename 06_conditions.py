@@ -27,8 +27,11 @@
 #     print("x does not equal to two.")
 
 # Is operator
+# x = [1,2,3]
+# y = [1,2,3]
+# print(x == y) # Prints out True
+# print(x is y) # Prints out False
 
-x = [1,2,3]
-y = [1,2,3]
-print(x == y) # Prints out True
-print(x is y) # Prints out False
+# The not operator, to invert Boolean
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
