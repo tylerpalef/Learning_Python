@@ -39,7 +39,7 @@
 # change this code
 number = 16
 second_number = 10
-first_array = []
+first_array = [2]
 second_array = [1,2,3]
 
 if number > 15:
