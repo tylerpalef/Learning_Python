@@ -39,8 +39,8 @@
 # change this code
 number = 16
 second_number = 10
-first_array = [2]
-second_array = [1,2,3]
+first_array = [2, 1, 1]
+second_array = [2,3]
 
 if number > 15:
     print("1")
