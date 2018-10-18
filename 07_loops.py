@@ -12,7 +12,20 @@
 #    print(x) # Prints out 3,5,7
 
 
+# count = 0
+# while count < 5:
+#     print(count) # Prints out 0,1,2,3,4
+#     count += 1  # This is the same as count = count + 1
+
 count = 0
-while count < 5:
+while True:
     print(count) # Prints out 0,1,2,3,4
-    count += 1  # This is the same as count = count + 1
+    count += 1
+    if count >= 5:
+        break
+
+for x in range(10):
+    # Check if x is even
+    if x % 2 == 0: # Prints out only odd numbers - 1,3,5,7,9
+        continue
+    print(x)
